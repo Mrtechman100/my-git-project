@@ -1,0 +1,62 @@
+html { 
+    --bg-color: #f39a7a; 
+    --primary-color: #0d0401; 
+    --secondary-color: #79950e; 
+    --accent-color: #98eb1f; 
+    --text-color: #fdece5;
+}
+
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 20px; 
+    padding: 0; 
+    background-color: var(--bg-color);
+}
+
+.container {
+    max-width: 800px; 
+    margin: auto; 
+    padding: 20px;
+}
+
+.intro { 
+    margin-bottom: 20px; 
+    background-color: var(--primary-color); 
+    padding: 10px; 
+    color: var(--text-color);
+}
+
+h1 { 
+    text-align: center; 
+    color: #333;
+}
+
+.section { 
+    margin-bottom: 20px; 
+    background-color: var(--primary-color)
+}
+
+.section h2 { 
+    border-bottom: 2px solid var(--text-color); 
+    padding-bottom: 10px; 
+    color: #333; 
+    color: var(--text-color);
+}
+
+.section p { 
+    margin: 5px 0; 
+    color: var(--text-color);
+}
+
+.section ul { 
+    margin: 5px 0; 
+    padding-left: 20px; 
+    color: var(--text-color);
+}
+
+.contact, .experience, .education, .skills { 
+    padding: 10px; 
+    background: var(--accent-color); /*border: 1px solid #ddd; */
+    background-color: var(--secondary-color); 
+    box-shadow: 10px  5px var(--accent-color);
+} 
